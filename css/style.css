@@ -48,7 +48,7 @@ body {
 #formulario_login {
     background-color: darkslategray;
     height: 550px;
-    max-width: 400px;
+    width: 400px;
     border-radius: 5%;
     transition: 400ms linear;
     display: flex;
@@ -58,14 +58,10 @@ body {
     text-align: center;
 }
 
-#formulario_login:hover {
-    height: 565px;
-    width: 415px;
-}
 
 #formulario_login input {
     height: 40px;
-    border-radius: 15px; 
+    border-radius: 15px;
     border: none;
     font-size: 15px;
     text-align: center;
@@ -93,9 +89,9 @@ a {
 }
 
 #formulario_login img {
-    height: 120px;
     width: 100px;
-    margin-left: 140px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 35px;
 }
 
@@ -107,9 +103,15 @@ a {
     #bloco_login {
         width: 100%;
         margin: 0 20px;
+        background-color: darkslategray;
     }
 
-    #formulario_login{
+    #formulario_login {
+        width: 100%;
+        border-radius: 0%;
+    }
 
+    body{
+        background-color: darkslategray
     }
 }
