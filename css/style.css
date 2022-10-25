@@ -48,7 +48,7 @@ body {
 #formulario_login {
     background-color: darkslategray;
     height: 550px;
-    width: 400px;
+    max-width: 400px;
     border-radius: 5%;
     transition: 400ms linear;
     display: flex;
@@ -65,8 +65,7 @@ body {
 
 #formulario_login input {
     height: 40px;
-    border-radius: 15px;
-    
+    border-radius: 15px; 
     border: none;
     font-size: 15px;
     text-align: center;
@@ -98,4 +97,19 @@ a {
     width: 100px;
     margin-left: 140px;
     margin-bottom: 35px;
+}
+
+@media screen and (max-width: 425px) {
+    #cor_30_por_cento {
+        display: none;
+    }
+
+    #bloco_login {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    #formulario_login{
+
+    }
 }
