@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+input,
+button {
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+html,
+body {
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#cor_30_por_cento {
+    background-color: darkslategray;
+    width: 30%;
+}
+
+#bloco_login {
+    background-color: grey;
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario_login {
+    background-color: darkslategray;
+    height: 550px;
+    width: 400px;
+    border-radius: 5%;
+    transition: 400ms linear;
+    display: flex;
+    padding: 65px 20px 0px 20px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+#formulario_login:hover {
+    height: 565px;
+    width: 415px;
+}
+
+#formulario_login input {
+    height: 40px;
+    border-radius: 15px;
+    
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+    height: 25px;
+}
+
+
+button:hover {
+    background-color: rgb(44, 128, 128)
+}
+
+a {
+    color: white;
+}
+
+#formulario_login footer {
+    margin-top: auto;
+    padding-bottom: 10px;
+}
+
+#formulario_login img {
+    height: 120px;
+    width: 100px;
+    margin-left: 140px;
+    margin-bottom: 35px;
+}
