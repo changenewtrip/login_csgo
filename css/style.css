@@ -24,7 +24,6 @@ button {
 
 html,
 body {
-    background-color: gray;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -36,13 +35,23 @@ body {
 }
 
 #bloco_login {
-    background-color: grey;
     height: 100vh;
     width: 70%;
     display: flex;
     justify-content: end;
     align-items: center;
     justify-content: center;
+
+}
+
+#background_video {
+    height: 100vh;
+    display: flex;
+    justify-content: auto;
+    position: absolute;
+    position: fixed;
+    justify-content: space-between;
+    
 }
 
 #formulario_login {
@@ -56,6 +65,7 @@ body {
     flex-direction: column;
     gap: 10px;
     text-align: center;
+    position: relative;
 }
 
 
@@ -81,6 +91,10 @@ button:hover {
 
 a {
     color: white;
+}
+
+span {
+    color: rgb(241, 114, 2)
 }
 
 #formulario_login footer {
@@ -111,7 +125,11 @@ a {
         border-radius: 0%;
     }
 
-    body{
+    body {
         background-color: darkslategray
+    }
+
+    #background_video{
+        display: none;
     }
 }
